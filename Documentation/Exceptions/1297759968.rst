@@ -53,6 +53,9 @@ Background: the autoload information (:file:`typo3temp/autoload/`) wasn't
 flushed/updated. Since TYPO3 v8 there's a option in the install-tool for
 regenerating the autoconfiguration files.
 
+Another reason could be, if PHP strict_types is declared, and current method parameters have invalid or none type declaration specified.
+Check and add wrong or missing type declaration for both, documented function parameters and passing function arguments.
+
 Exception while property mapping at property path "...": Could not determine the child object type.
 ====================================================================================================
 
